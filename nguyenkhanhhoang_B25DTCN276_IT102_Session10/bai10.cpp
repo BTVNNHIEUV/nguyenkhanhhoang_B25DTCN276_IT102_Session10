@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-int main() {
+int main(){
     int n = 6;
     int arr[] = {64, 25, 12, 22, 11, 90};
-    int x = 25; // s? c?n tìm
+    int x = 25;
     int i, j, minIndex, temp;
     int min;
     min = arr[0];
@@ -34,7 +34,7 @@ int main() {
     int found = 0;
     while(left <= right){
         mid = (left + right) / 2;
-        if(arr[mid] == x) {
+        if(arr[mid] == x){
             printf("\n\nPhan tu %d co chi so %d trong mang da sap xep.\n", x, mid);
             found = 1;
             break;
@@ -51,3 +51,4 @@ int main() {
 
     return 0;
 }
+
